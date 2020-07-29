@@ -1,0 +1,82 @@
+.heading {
+  text-align: center;
+}
+
+.div-block {
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: center;
+}
+
+.button {
+  position: static;
+  width: 57.583343505859375vw;
+  height: 4vw;
+  min-width: 0px;
+  margin-top: 40px;
+  padding-top: 17px;
+  background-color: #000;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.button.yes {
+  display: block;
+  width: auto;
+  height: auto;
+  min-height: 60px;
+  padding-top: 15px;
+  border: 5px solid #52be80;
+  border-radius: 10px;
+  background-color: #229954;
+  text-align: center;
+}
+
+.button.no {
+  display: block;
+  width: auto;
+  height: auto;
+  min-height: 60px;
+  margin-top: 20px;
+  padding-top: 15px;
+  border: 5px solid #cd6155;
+  border-radius: 10px;
+  background-color: #a93226;
+}
+
+.body {
+  display: block;
+}
+
+.section {
+  text-align: center;
+}
+
+.section-2 {
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+  .button.yes {
+    height: auto;
+    min-height: 60px;
+    padding-top: 15px;
+  }
+  .button.no {
+    height: auto;
+    min-height: 60px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .heading {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
